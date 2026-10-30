@@ -3,87 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crédito Fácil - Plataforma de Assessoria e Diagnóstico</title>
+    <title>Crédito Fácil - Consulta e Diagnóstico Financeiro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-950 text-gray-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
 
-    <!-- Header -->
-    <header class="border-b border-gray-800 bg-gray-900/80 backdrop-blur sticky top-0 z-50">
-        <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+    <!-- Header / Topo -->
+    <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
             <div class="flex items-center space-x-2">
-                <div class="bg-emerald-500 text-gray-950 p-2 rounded-lg font-black text-xl tracking-wider">
+                <div class="bg-emerald-500 text-slate-950 px-2.5 py-1 rounded-lg font-black text-lg tracking-wider shadow-md">
                     CF
                 </div>
-                <span class="text-xl font-bold tracking-tight text-white">Crédito <span class="text-emerald-400">Fácil</span></span>
+                <span class="text-lg font-bold tracking-tight text-white">Crédito <span class="text-emerald-400">Fácil</span></span>
             </div>
-            <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full flex items-center gap-1.5">
+            <span class="text-[11px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5">
                 <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                Serviço de Assessoria Ativo
+                Atendimento Imediato
             </span>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="max-w-3xl w-full mx-auto px-4 py-10 flex-grow">
+    <!-- Conteúdo Principal -->
+    <main class="max-w-xl w-full mx-auto px-4 py-8 flex-grow space-y-6">
         
-        <div id="solicitacaoSection" class="space-y-6">
-            <div class="text-center">
-                <h1 class="text-3xl font-extrabold text-white tracking-tight mb-2">
-                    Diagnóstico e Assessoria Documental
-                </h1>
-                <p class="text-gray-400 text-sm">
-                    Gere o seu relatório de organização de informações e identifique as melhores diretrizes para o seu perfil.
-                </p>
+        <!-- Headline Comercial Forte -->
+        <div class="text-center space-y-2">
+            <div class="inline-block bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-semibold px-3 py-1 rounded-full mb-1">
+                <i class="fa-solid fa-bolt"></i> Liberação e Consulta Rápida
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight leading-snug">
+                Descubra suas Oportunidades de Crédito e Limpe seu Caminho Bancário
+            </h1>
+            <p class="text-slate-400 text-xs sm:text-sm px-2">
+                Realizamos uma varredura completa do seu perfil nas principais instituições para destravar o seu acesso a cartões, empréstimos e financiamentos.
+            </p>
+        </div>
+
+        <!-- Seção de Bancos / Parceiros Analisados -->
+        <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4 text-center space-y-3">
+            <p class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Cruzamento de Dados com as Principais Instituições</p>
+            <div class="flex flex-wrap justify-center items-center gap-2 sm:gap-3 text-xs font-bold text-slate-300">
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Caixa</span>
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Itaú</span>
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Bradesco</span>
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Santander</span>
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Banco do Brasil</span>
+                <span class="bg-slate-800/80 border border-slate-700 px-3 py-1.5 rounded-lg">Nubank / C6</span>
+            </div>
+        </div>
+
+        <!-- O que o cliente recebe (Gatilho de Valor) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-check text-emerald-400 text-base mt-0.5"></i>
+                <div>
+                    <strong class="text-white block mb-0.5">Relatório de Oportunidades</strong>
+                    <span class="text-slate-400">Saiba exatamente onde seu CPF tem pré-aprovação.</span>
+                </div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-3 rounded-xl flex items-start space-x-2.5">
+                <i class="fa-solid fa-circle-check text-emerald-400 text-base mt-0.5"></i>
+                <div>
+                    <strong class="text-white block mb-0.5">Diagnóstico de Restrições</strong>
+                    <span class="text-slate-400">Identificação clara de pendências e dicas para limpar.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário de Conversão -->
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-2xl space-y-4">
+            <div class="border-b border-slate-800 pb-3">
+                <h2 class="text-sm font-bold text-white uppercase tracking-wide flex items-center gap-2">
+                    <i class="fa-solid fa-lock text-emerald-400"></i> Iniciar Análise Segura do CPF
+                </h2>
             </div>
 
-            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-2xl">
-                <form id="formAssessoria" class="space-y-4">
+            <form id="formCheckout" class="space-y-3.5">
+                <div>
+                    <label class="block text-[11px] font-semibold text-slate-300 uppercase mb-1">Seu Nome Completo</label>
+                    <input type="text" required placeholder="Como consta no documento" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
-                        <label class="block text-xs font-semibold text-gray-300 uppercase mb-1">Nome Completo</label>
-                        <input type="text" required placeholder="Digite seu nome" class="w-full bg-gray-950 border border-gray-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
+                        <label class="block text-[11px] font-semibold text-slate-300 uppercase mb-1">Seu CPF</label>
+                        <input type="text" required placeholder="000.000.000-00" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
                     </div>
-
                     <div>
-                        <label class="block text-xs font-semibold text-gray-300 uppercase mb-1">CPF</label>
-                        <input type="text" required placeholder="000.000.000-00" class="w-full bg-gray-950 border border-gray-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
+                        <label class="block text-[11px] font-semibold text-slate-300 uppercase mb-1">WhatsApp (com DDD)</label>
+                        <input type="text" required placeholder="(11) 90000-0000" class="w-full bg-slate-950 border border-slate-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
+                    </div>
+                </div>
+
+                <div class="pt-2">
+                    <div class="flex justify-between items-center mb-2 px-1">
+                        <span class="text-xs text-slate-400">Taxa Única de Emissão:</span>
+                        <span class="text-lg font-black text-emerald-400">R$ 29,90</span>
                     </div>
 
-                    <div>
-                        <label class="block text-xs font-semibold text-gray-300 uppercase mb-1">Tipo de Serviço Solicitado</label>
-                        <select class="w-full bg-gray-950 border border-gray-800 rounded-xl p-3 text-sm text-white focus:border-emerald-500 focus:outline-none">
-                            <option value="1">Elaboração de Relatório de Diagnóstico Financeiro</option>
-                            <option value="2">Organização de Checklist de Documentação</option>
-                            <option value="3">Análise de Perfil e Diretrizes Financeiras</option>
-                        </select>
-                    </div>
-
-                    <div class="p-4 bg-gray-950 border border-gray-800 rounded-xl text-xs text-gray-400 space-y-1">
-                        <p class="text-emerald-400 font-semibold flex items-center gap-1">
-                            <i class="fa-solid fa-file-invoice"></i> Prestação de Serviço Transparente
-                        </p>
-                        <p>O valor cobrado refere-se estritamente à taxa de processamento de software e emissão do relatório consultivo digital.</p>
-                    </div>
-
-                    <!-- BOTÃO INTEGRADO COM O GATEWAY DE PAGAMENTO -->
-                    <!-- Substitua o '#' dentro do href pelo link de pagamento do seu gateway (ex: Mercado Pago, Kiwify) -->
-                    <a href="#" target="_blank" class="w-full bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-bold py-4 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2 text-center block">
-                        <span>Gerar Relatório (R$ 29,90 via Pix)</span>
-                        <i class="fa-solid fa-qrcode text-sm"></i>
+                    <!-- BOTÃO DE PAGAMENTO (Substitua o '#' pelo seu link de pagamento do Pix/Gateway) -->
+                    <a href="#" target="_blank" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black py-4 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2 text-center block text-sm tracking-wide">
+                        <span>LIBERAR MEU RELATÓRIO AGORA (PIX)</span>
+                        <i class="fa-solid fa-arrow-right text-xs"></i>
                     </a>
-                </form>
-            </div>
+                </div>
+
+                <p class="text-[10px] text-center text-slate-500 pt-1">
+                    <i class="fa-solid fa-shield-halved"></i> Ambiente seguro. Seus dados estão protegidos pela Lei Geral de Proteção de Dados (LGPD).
+                </p>
+            </form>
         </div>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="border-t border-gray-900 bg-gray-950 py-6 text-center text-xs text-gray-600 px-4">
-        <div class="max-w-5xl mx-auto space-y-2">
-            <p><strong>Crédito Fácil Tecnologia e Assessoria LTDA</strong> — CNPJ: 00.000.000/0001-00</p>
-            <p>Atendimento e Suporte: suporte@creditofacil.com.br</p>
-        </div>
+    <!-- Rodapé -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-5 text-center text-[11px] text-slate-500 px-4 space-y-1">
+        <p><strong>Crédito Fácil Consultoria e Assessoria Digital</strong></p>
+        <p>Serviço privado de organização de dados e consultoria. Não realizamos concessão direta de empréstimos bancários.</p>
     </footer>
 
 </body>
